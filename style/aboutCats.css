@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  background-color: cadetblue;
+}
+p:nth-child(2) {
+  color: aquamarine;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+section > h1 {
+  color: burlywood;
+  /* کپی کردن کد فونت از font.google.com */
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+p:last-of-type {
+  color: cornflowerblue;
+}
+p:first-child {
+  color: rgb(158, 56, 110);
+}
+h2 {
+  letter-spacing: 5px;
+  font-weight: 200;
+}
+.loremDiv {
+  width: 200px;
+  height: 400px;
+  border: 2px dashed black;
+  word-wrap: break-word;
+}
