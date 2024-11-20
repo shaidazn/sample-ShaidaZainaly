@@ -1,3 +1,8 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(128, 165, 240);
+}
 h1 {
   font-family: "Edu AU VIC WA NT Pre", sans-serif;
 }
@@ -5,3 +10,38 @@ h1 {
     font-family: ;
     src: url();
 } */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 5px;
+}
+
+@keyframes circlemove {
+  0% {
+    background-color: bisque;
+    margin-left: 0px;
+  }
+  50% {
+    background-color: rgb(134, 229, 208);
+    margin-left: 200px;
+  }
+  100% {
+    background-color: bisque;
+    margin-left: 0px;
+  }
+}
+
+.section1 {
+  /* display: flex; */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 50px;
+  animation-name: circlemove;
+  animation-duration: 4s;
+  /* animation-delay: 2s; */
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+  animation-timing-function: ease-in;
+}
